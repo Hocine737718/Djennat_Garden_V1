@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="assets/css/home.css">
         <link rel="stylesheet" href="assets/css/products.css">
         <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <title>Djennat Garden</title>
     </head>
@@ -196,6 +197,16 @@
                 </div>
             </section>
         </main>
+        <!--FOOTER-->
+        <footer class="footer" id="footer">
+            <div class="container footer_container">
+                <div class="footer_data">
+                    <div class="footer_content">                                
+                        <p class="copyright_text">Ce site web a été créé à partir d'un modèle de site <a href="https://www.facebook.com/bedimcode/">&#169;Bedimcode</a>.</p>
+                    </div>       
+                </div>
+            </div>
+        </footer> 
         <!--JS Scripts-->
         <script src="assets/js/scrollreveal.min.js"></script>
         <script src="assets/js/main.js"></script>
