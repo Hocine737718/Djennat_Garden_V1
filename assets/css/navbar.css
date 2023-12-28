@@ -35,14 +35,19 @@
 .nav_link:hover{
     color: var(--first-color);
 }
+.nav_icon{
+    color: var(--title-color);
+   cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+}
+.nav_icon:hover{
+    color: var(--first-color);
+}
 .nav_btns{
     display: flex;
     flex-direction: row;
     column-gap: 1.5rem;
-    cursor: pointer;
-}
-.f-x-large{
-    font-size: x-large;
 }
 .nav_toggle, .nav_close{
     display: none;

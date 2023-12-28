@@ -32,20 +32,20 @@
                             <a href="#contact" class="nav_link">Contactez-nous</a>
                         </li>
                         <li class="nav_item">
-                            <a href="#account" class="nav_link"><i class="f-x-large fa-solid fa-circle-user"></i></a>
+                            <a href="#account" class="nav_link"><i class="fa-solid fa-circle-user  nav_icon"></i></a>
                         </li>
                     </ul>
                     <div class="nav_close" id="nav-close">
-                        <i class="f-x-large ri-close-line"></i>
+                        <i class="ri-close-line nav_icon"></i>
                     </div>
                 </div>
                 <div class="nav_btns">
-                    <a href="#cart" class="nav_cart">
-                        <i class="f-x-large fa-solid fa-cart-shopping"></i>
+                    <a href="#cart">
+                        <i class="fa-solid fa-cart-shopping nav_icon"></i>
                     </a>    
-                    <i class="f-x-large ri-moon-line" id="theme-button"></i>
+                    <i class="ri-moon-line nav_icon" id="theme-button"></i>
                     <div class="nav_toggle" id="nav-toggle">
-                        <i class="f-x-large fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars nav_icon"></i>
                     </div>
                 </div>
             </nav>
