@@ -12,7 +12,7 @@ if (selectedTheme) {
   // Si la validation est remplie, nous demandons quelle était la problématique pour savoir si nous avons activé ou désactivé 
   // le mode dark.
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
-  themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
+  themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme);
 }
 // Activer / désactiver le thème manuellement avec le bouton
 themeButton.addEventListener('click', () => {
@@ -20,6 +20,20 @@ themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme);
     themeButton.classList.toggle(iconTheme);
     // Nous sauvegardons le thème et l'icône actuelle que l'utilisateur a choisie.
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
+    localStorage.setItem('selected-theme', getCurrentTheme());
+    localStorage.setItem('selected-icon', getCurrentIcon());
 })
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // ;reset: true
+})
+sr.reveal(`.home_data`);
+sr.reveal(`.home_img`, {delay: 500});
+sr.reveal(`.home_social`, {delay: 600});
+/*sr.reveal(`.about_img, .contact_box`,{origin: 'left'});
+sr.reveal(`.about_data, .contact_form`,{origin: 'right'});
+sr.reveal(`.steps_card, .product_card, .questions_group, .footer`,{interval: 100});*/
