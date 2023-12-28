@@ -50,6 +50,6 @@ const sr = ScrollReveal({
 sr.reveal(`.home_data`);
 sr.reveal(`.home_img`, {delay: 500});
 sr.reveal(`.home_social`, {delay: 600});
-/*sr.reveal(`.contact_box`,{origin: 'left'});
-sr.reveal(`.contact_form`,{origin: 'right'});*/
+sr.reveal(`.contact_box`,{origin: 'left'});
+sr.reveal(`.contact_form`,{origin: 'right'});
 sr.reveal(`.product_card, .footer`,{interval: 100});
