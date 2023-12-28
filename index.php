@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/css/navbar.css">
         <link rel="stylesheet" href="assets/css/home.css">
         <link rel="stylesheet" href="assets/css/products.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <title>Djennat Garden</title>
     </head>
@@ -147,6 +148,52 @@
                             <i class="ri-shopping-bag-line"></i>
                         </button>
                     </article>
+                </div>
+            </section>
+            <!--CONTACT-->
+            <section class="contact section container" id="contact">                
+                <div class="contact_container grid">
+                    <div class="contact_box">
+                        <h2 class="section_title">
+                            N'hésitez pas <br> à nous contacter <br> dès maintenant
+                        </h2>
+                        <div class="contact_data">
+                            <div class="contact_information">
+                                <h3 class="contact_subtitle">Appelez-nous pour un soutien immédiat.</h3>
+                                <span class="contact_description">
+                                    <i class="ri-phone-line contact_icon"></i>
+                                    0540 44 41 83
+                                </span>
+                            </div>
+                            <div class="contact_information">
+                                <h3 class="contact_subtitle">Écrivez-nous par courrier.</h3>
+                                <span class="contact_description">
+                                    <i class="ri-mail-line contact_icon"></i>
+                                    hocine737718@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact_form">
+                        <div class="contact_inputs">
+                            <div class="contact_content">
+                                <input type="email" placeholder=" " class="contact_input">
+                                <label for="" class="contact_label">Email</label>
+                            </div>                            
+                            <div class="contact_content">
+                                <input type="text" placeholder=" " class="contact_input">
+                                <label for="" class="contact_label">Sujet</label>
+                            </div>                            
+                            <div class="contact_content contact_area">
+                                <textarea name="message" placeholder=" " class="contact_input"></textarea>                              
+                                <label for="" class="contact_label">Message</label>
+                            </div>
+                        </div>
+                        <button class="button button--flex">
+                            Envoyer
+                            <i class="ri-arrow-right-up-line button_icon"></i>
+                        </button>
+                    </form>
                 </div>
             </section>
         </main>
