@@ -33,7 +33,10 @@
                             <a href="#contact" class="nav_link">Contactez-nous</a>
                         </li>
                         <li class="nav_item">
-                            <a href="#account" class="nav_link"><i class="fa-solid fa-circle-user  nav_icon"></i></a>
+                            <a href="#account" class="nav_link">
+                                <!--i class="fa-solid fa-circle-user  nav_icon"></i-->
+                                S'inscrir
+                            </a>
                         </li>
                     </ul>
                     <div class="nav_close" id="nav-close">
@@ -65,7 +68,7 @@
                             Votre destination de choix pour des plantes artificielles exceptionnelles en Algérie !
                         </p>
                         <a href="#products" class="button button--flex">
-                            Nos Produits <i class="ri-arrow-right-down-line button_icon"></i>
+                            Nos Produits <!--i class="ri-arrow-right-down-line button_icon"></i-->
                         </a>
                     </div>
                     <div class="home_social">
@@ -77,9 +80,9 @@
                             <a href="https://www.instagram.com/" target="_blank" class="home_social-link">
                                 <i class="ri-instagram-line"></i>
                             </a>
-                            <a href="https://twitter.com/" target="_blank" class="home_social-link">
+                            <!--a href="https://twitter.com/" target="_blank" class="home_social-link">
                                 <i class="ri-twitter-fill"></i>
-                            </a>
+                            </a-->
                         </div>
                     </div>
                 </div>
@@ -154,9 +157,6 @@
             <section class="contact section container" id="contact">                
                 <div class="contact_container grid">
                     <div class="contact_box">
-                        <h2 class="section_title">
-                            N'hésitez pas <br> à nous contacter <br> dès maintenant
-                        </h2>
                         <div class="contact_data">
                             <div class="contact_information">
                                 <h3 class="contact_subtitle">Appelez-nous pour un soutien immédiat.</h3>
@@ -169,29 +169,28 @@
                                 <h3 class="contact_subtitle">Écrivez-nous par courrier.</h3>
                                 <span class="contact_description">
                                     <i class="ri-mail-line contact_icon"></i>
-                                    hocine737718@email.com
+                                    hocine737718@gmail.com
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact_form">
+                    <form action="mail.php" method="POST" class="contact_form">
+                        <h2 class="section_title-center">
+                            Contactez-nous
+                        </h2>
                         <div class="contact_inputs">
                             <div class="contact_content">
-                                <input type="email" placeholder=" " class="contact_input">
-                                <label for="" class="contact_label">Email</label>
-                            </div>                            
-                            <div class="contact_content">
-                                <input type="text" placeholder=" " class="contact_input">
-                                <label for="" class="contact_label">Sujet</label>
-                            </div>                            
-                            <div class="contact_content contact_area">
-                                <textarea name="message" placeholder=" " class="contact_input"></textarea>                              
-                                <label for="" class="contact_label">Message</label>
+                                <input type="text" class="contact_input" name="name" placeholder="Votre Nom" id="name" required>
+                            </div>
+                            <div class="contact_content" style="justify-content:right;">
+                                <input type="email" class="contact_input" name="email" placeholder="Email" id="email" required>
                             </div>
                         </div>
-                        <button class="button button--flex">
+                        <div class="contact_areas">
+                            <textarea name="message" rows="6" class="contact_input contact_area" id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="button button--flex">
                             Envoyer
-                            <i class="ri-arrow-right-up-line button_icon"></i>
                         </button>
                     </form>
                 </div>
