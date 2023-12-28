@@ -5,7 +5,7 @@
 .product_container{
     padding: 4rem 0;
     grid-template-columns: repeat(4, 160px);
-    gap: 4rem 6rem;
+    gap: 4rem 7rem;
 }
 .product_card{
     display: grid;

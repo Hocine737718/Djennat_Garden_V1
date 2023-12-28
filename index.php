@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="assets/css/footer.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <link rel="stylesheet" href="assets/css/dark.css">
+        <link rel="stylesheet" href="assets/css/media.css">
         <title>Djennat Garden</title>
     </head>
     <body>
@@ -26,13 +27,19 @@
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">
                         <li class="nav_item">
-                            <a href="#home" class="nav_link active-link">Acceuil</a>
+                            <a href="#home" class="nav_link active-link">
+                                Acceuil
+                            </a>
                         </li>
                         <li class="nav_item">
-                            <a href="#products" class="nav_link">Produits</a>
+                            <a href="#products" class="nav_link">
+                                Produits
+                            </a>
                         </li>
                         <li class="nav_item">
-                            <a href="#contact" class="nav_link">Contactez-nous</a>
+                            <a href="#contact" class="nav_link">
+                                Contactez-nous
+                            </a>
                         </li>
                         <li class="nav_item">
                             <a href="#account" class="nav_link">
@@ -203,7 +210,7 @@
             <div class="container footer_container">
                 <div class="footer_data">
                     <div class="footer_content">                                
-                        <p class="copyright_text">Ce site web a été créé à partir d'un modèle de site <a href="https://www.facebook.com/bedimcode/">&#169;Bedimcode</a>.</p>
+                        <p class="copyright_text">Ce site web a été créé à partir d'un modèle de site <a href="https://www.facebook.com/bedimcode/" target="_blank">&#169;Bedimcode</a>.</p>
                     </div>       
                 </div>
             </div>

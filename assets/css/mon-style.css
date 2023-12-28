@@ -7,7 +7,7 @@
     /*--logo-img: url('../img/logo/logo.png');*/
 
     /* Conatiner CSS */
-    --max-width-container: 991px;
+    --max-width-container: 992px;
     --mrg-l-container:auto;
     --mrg-r-container:auto;
 
@@ -126,4 +126,7 @@ img{
     text-align: center;
     margin-bottom: var(--mb-2);
     line-height: 140%;
+}
+.show-menu{
+    right: 0!important;
 }
