@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/css/mon-style.css">
         <link rel="stylesheet" href="assets/css/navbar.css">
         <link rel="stylesheet" href="assets/css/home.css">
+        <link rel="stylesheet" href="assets/css/products.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <title>Djennat Garden</title>
     </head>
@@ -62,7 +63,7 @@
                         <p class="home_description">
                             Votre destination de choix pour des plantes artificielles exceptionnelles en Algérie !
                         </p>
-                        <a href="#product" class="button button--flex">
+                        <a href="#products" class="button button--flex">
                             Nos Produits <i class="ri-arrow-right-down-line button_icon"></i>
                         </a>
                     </div>
@@ -80,6 +81,72 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </section>
+            <!--PRODUCTS-->
+            <section class="product section container" id="products">
+                <h2 class="section_title-center">
+                    Consultez nos produits.
+                </h2>
+                <p class="product_description">
+                    Voici nos plantes. <br>
+                    Achetez et profitez de la meilleure qualité.
+                </p>
+                <div class="product_container grid">
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/1.png" alt="" class="product_img">
+                        <h3 class="product_title">Cacti Plant</h3>
+                        <span class="product_price">19.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/2.png" alt="" class="product_img">
+                        <h3 class="product_title">Cactus Plant</h3>
+                        <span class="product_price">11.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/3.png" alt="" class="product_img">
+                        <h3 class="product_title">Aloe Vera Plant</h3>
+                        <span class="product_price">7.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/4.png" alt="" class="product_img">
+                        <h3 class="product_title">Succulent Plant</h3>
+                        <span class="product_price">5.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/5.png" alt="" class="product_img">
+                        <h3 class="product_title">Succulent Plant</h3>
+                        <span class="product_price">10.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="product_card">
+                        <div class="product_circle"></div>
+                        <img src="assets/img/produits/6.png" alt="" class="product_img">
+                        <h3 class="product_title">Green Plant</h3>
+                        <span class="product_price">8.99 DA</span>
+                        <button class="button--flex product_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
                 </div>
             </section>
         </main>

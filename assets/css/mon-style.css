@@ -114,3 +114,15 @@ img{
     et vous pouvez organiser ces éléments en lignes et colonnes.
     */
 }
+.section{
+    padding: 7rem 0 1rem;
+}
+.section_title{
+    font-size: var(--h1-font-size);
+}
+.section_title-center {
+    font-size: var(--h1-font-size);
+    text-align: center;
+    margin-bottom: var(--mb-2);
+    line-height: 140%;
+}
