@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="stylesheet" href="assets/css/footer.css">
         <link rel="stylesheet" href="assets/css/button.css">
+        <link rel="stylesheet" href="assets/css/dark.css">
         <title>Djennat Garden</title>
     </head>
     <body>
@@ -20,7 +21,7 @@
         <header class="header">
             <nav class="nav container">
                 <a href="#" id="logo">
-                    <img src="assets/img/logo/6.png" alt="logo">
+                    <img src="assets/img/logo/logo.png" alt="logo">
                 </a>
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">

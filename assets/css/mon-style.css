@@ -4,6 +4,7 @@
 :root{
     --navbar-height: 68px;
     --background-img: url('../img/background/light.png');
+    /*--logo-img: url('../img/logo/logo.png');*/
 
     /* Conatiner CSS */
     --max-width-container: 991px;

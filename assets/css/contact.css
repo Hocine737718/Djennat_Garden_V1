@@ -55,7 +55,10 @@
     width:100%;
     resize: none;
 }
-
+.contact_input, .contact_input:focus, .contact_input::placeholder,
+.contact_area, .contact_area:focus, .contact_area::placeholder{
+    color: var(--first-color-alt);
+}
 /*.contact_input:focus + .contact_label{
     top: -.75rem;
     left: 0;
