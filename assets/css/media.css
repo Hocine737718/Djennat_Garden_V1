@@ -159,7 +159,7 @@
         grid-template-columns: repeat(2, 100px);
     }
     #logo img{
-        max-width: 70%;
+        max-width: 90%;
     }
     #logo{
         position: relative;
@@ -208,7 +208,7 @@
         --navbar-height: 60px;
     }
     #logo img{
-        max-width: 60%;
+        max-width: 80%;
     }
     #logo{
         left:-5%;
@@ -216,9 +216,6 @@
     .nav_btns{
         right:0%;
         column-gap: 1rem;
-    }
-    .nav_icon {
-        font-size: medium;
     }
     .product{
         max-width: 250px;

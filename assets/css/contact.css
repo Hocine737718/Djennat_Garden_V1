@@ -59,14 +59,3 @@
 .contact_area, .contact_area:focus, .contact_area::placeholder{
     color: var(--first-color-alt);
 }
-/*.contact_input:focus + .contact_label{
-    top: -.75rem;
-    left: 0;
-    font-size: var(--smaller-font-size);
-    z-index: 10;
-}
-.contact_input:not(:placeholder-shown).contact_input:not(:focus) + .contact_label{
-    top: -.75rem;
-    font-size: var(--smaller-font-size);
-    z-index: 10;
-}*/

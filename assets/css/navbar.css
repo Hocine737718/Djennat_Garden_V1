@@ -17,7 +17,6 @@
     width: 150px;
     display: inline-flex;
     align-items: center;
-    /*column-gap: .5rem;*/
 }
 #logo:hover{
     opacity: 75%;
@@ -37,7 +36,7 @@
 }
 .nav_icon{
     color: var(--title-color);
-   cursor: pointer;
+    cursor: pointer;
     font-size: x-large;
     transition: .3s;
 }

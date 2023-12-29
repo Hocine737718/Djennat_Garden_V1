@@ -22,12 +22,3 @@
     column-gap: .5rem;
     justify-self: right;
 }
-/*
-.button--link{
-    color: var(--first-color);
-    font-weight: var(--font-medium);
-}
-.button--link:hover .button_icon{
-    transform: translateX(.25rem);
-}
-*/
