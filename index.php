@@ -71,7 +71,7 @@
                     <img src="assets/img/home.png" alt="home" class="home_img">
                     <div class="home_data">
                         <h1 class="home_title">
-                            Bienvenue chez <br> DJENNAT Garden
+                            Bienvenue chez <br> DJENNAT <br> <small>Green Art</small>
                         </h1>
                         <p class="home_description">
                             Votre destination de choix pour des plantes artificielles exceptionnelles en Algérie !
@@ -178,7 +178,7 @@
                                 <h3 class="contact_subtitle">Écrivez-nous par courrier.</h3>
                                 <span class="contact_description">
                                     <i class="ri-mail-line contact_icon"></i>
-                                    hocine737718@gmail.com
+                                    billel1599@gmail.com
                                 </span>
                             </div>
                         </div>
