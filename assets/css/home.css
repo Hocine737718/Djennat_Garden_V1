@@ -67,3 +67,7 @@
 .home_social-link:hover{
     transform: translateX(.25rem);
 }
+.home small{
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+}

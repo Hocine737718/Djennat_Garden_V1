@@ -13,7 +13,7 @@
 
     /* Colors */
     /* Color mode HSL(hue, saturation, lightness) */
-    --hue: 102;
+    --hue: 155;
     --first-color: hsl(var(--hue), 78%, 31%);
     --first-color-alt: hsl(var(--hue), 78%, 22%);
     --first-color-light: hsl(var(--hue), 78%, 50%);

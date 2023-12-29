@@ -41,21 +41,12 @@
                                 Contactez-nous
                             </a>
                         </li>
-                        <li class="nav_item">
-                            <a href="#account" class="nav_link">
-                                <!--i class="fa-solid fa-circle-user  nav_icon"></i-->
-                                S'inscrir
-                            </a>
-                        </li>
                     </ul>
                     <div class="nav_close" id="nav-close">
                         <i class="ri-close-line nav_icon"></i>
                     </div>
                 </div>
                 <div class="nav_btns">
-                    <a href="#cart">
-                        <i class="fa-solid fa-cart-shopping nav_icon"></i>
-                    </a>    
                     <i class="ri-moon-line nav_icon" id="theme-button"></i>
                     <div class="nav_toggle" id="nav-toggle">
                         <i class="fa-solid fa-bars nav_icon"></i>
@@ -71,7 +62,7 @@
                     <img src="assets/img/home.png" alt="home" class="home_img">
                     <div class="home_data">
                         <h1 class="home_title">
-                            Bienvenue chez <br> DJENNAT <br> <small>Green Art</small>
+                            Bienvenue chez <br> DJENNAT <small>Green Art</small>
                         </h1>
                         <p class="home_description">
                             Votre destination de choix pour des plantes artificielles exceptionnelles en Algérie !
