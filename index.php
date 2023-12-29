@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/img/logo/1.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/logo/small.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="assets/css/mon-style.css">
@@ -22,7 +22,7 @@
         <header class="header">
             <nav class="nav container">
                 <a href="#" id="logo">
-                    <img src="assets/img/logo/logo.png" alt="logo">
+                    <img src="assets/img/logo/medium.png" alt="logo">
                 </a>
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">

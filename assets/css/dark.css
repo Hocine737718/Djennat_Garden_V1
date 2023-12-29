@@ -4,9 +4,8 @@ body.dark-theme{
     --title-color: hsl(var(--hue), 4%, 95%);
     --text-color: hsl(var(--hue), 4%, 1%);
     --body-color: hsl(var(--hue), 8%, 12%);
-    --container-color: hsl(var(--hue), 78%, 22%);
-    --background-img: url('../img/background/dark.png');
-    /*--logo-img: url('../img/logo/logo-dark.png');*/
+    --container-color: hsl(var(--hue), 42%, 49%);
+    --background-img: url('../img/background/dark-2.png');
 }
 .dark-theme .product_circle{
     background-color: var(--container-color);
