@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="assets/css/products.css">
         <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/scrollup.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <link rel="stylesheet" href="assets/css/dark.css">
         <link rel="stylesheet" href="assets/css/media.css">
@@ -202,6 +203,9 @@
                 </div>
             </div>
         </footer> 
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup_icon"></i>
+        </a>
         <!--JS Scripts-->
         <script src="assets/js/scrollreveal.min.js"></script>
         <script src="assets/js/main.js"></script>
